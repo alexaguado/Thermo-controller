@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<configuration>
+    <telnet ip="RaspberryIP" port="8888"/>
+    <login username="yourusername" password="yourpass"/>
+    <sensor id="yoursensorid"/>
+    <webconfig url="http://yoururl.com/thermo/" getconfig="getinfo.php" upgradetemp="submitTemp.php"/>
+</configuration>
